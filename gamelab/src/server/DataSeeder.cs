@@ -41,7 +41,7 @@ public static class DataSeeder
             var testUser = new UserModel
             {
                 Username = "Testikäyttäjä",
-                Email = "testi@example.com",
+                Email = "testuser@xamk.com",
                 Role = UserRole.Student
             };
             context.Users.Add(testUser);
